@@ -1,5 +1,5 @@
 {
-  "name": "adperks",
+  "name": "basic-auth-api",
   "version": "1.0.0",
   "main": "src/server.js",
   "type": "module",
@@ -21,7 +21,7 @@
     "test:watch": "jest --watch",
     "test": "jest"
   },
-  "repository": "https://github.com/imVSaini/adperks.git",
+  "repository": "https://github.com/imVSaini/express-auth-api.git",
   "author": "Vaibhav Saini",
   "license": "MIT",
   "dependencies": {
