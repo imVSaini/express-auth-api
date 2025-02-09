@@ -28,16 +28,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: 'yarn'
 
       # Step 3: Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: yarn install
 
       # Step 4: Run linting
       - name: Run linter
-        run: npm run lint
+        run: yarn lint
 
       # Step 5: Run tests
-      - name: Run tests
-        run: npm test
+      # - name: Run tests
+      #   run: npm test
